@@ -36,7 +36,6 @@ names(full_ext) <- gsub("-std", "_std", names(full_ext))
 
 ## Question 5: From the data set in step 4, creates a second, 
 ##             independent tidy data set with the average of each variable for each activity and each subject.
-
 library(dplyr)
 clean_data<-summarise_each(group_by(full_ext,subject,activity),funs(mean))
 write.table(clean_data, "./Clean_Data.txt", row.names = FALSE)
