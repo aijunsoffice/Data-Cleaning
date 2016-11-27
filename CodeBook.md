@@ -40,7 +40,7 @@ Groups: subject [1]
 5       1           STANDING            0.2789176         -0.016137590           -0.1106018         -0.99575990
 6       1             LAYING            0.2215982         -0.040513953           -0.1132036         -0.92805647
 # ... with 62 more variables: `timeBodyAcc_std-Y` <dbl>, `timeBodyAcc_std-Z` <dbl>, `timeGravityAcc_mean-X` <dbl>,
-# ... ... ... (*/too much to show here*/)
+# ... ... ... (*too much to show here*)
 ```
 
 ## Clean Dataset structure
