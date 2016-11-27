@@ -15,9 +15,9 @@ Loaded Data     | Description
 test_set        | 2947 obs. of 563 variables. (merged test data)
 train_set       | 7352 obs. of 563 variables. (merged training data)
 full_set        | 10299 obs. of 563 variables. (merger full data)
-full_ext        | 10299 obs. of 68 variables. ()
-activity_name   | 6 obs. of 2 variables
-clean_data      | 180 obs. of 8 variables
+full_ext        | 10299 obs. of 68 variables. (extracted data, only have mean and SD)
+activity_name   | 6 obs. of 2 variables (6 activity types)
+clean_data      | 180 obs. of 8 variables (final cleaned dataset)
 
 
 
@@ -40,7 +40,7 @@ Groups: subject [1]
 5       1           STANDING            0.2789176         -0.016137590           -0.1106018         -0.99575990
 6       1             LAYING            0.2215982         -0.040513953           -0.1132036         -0.92805647
 # ... with 62 more variables: `timeBodyAcc_std-Y` <dbl>, `timeBodyAcc_std-Z` <dbl>, `timeGravityAcc_mean-X` <dbl>,
-# ... ... ... (*too much to show here*)
+# ... ... ... (*/too much to show here*/)
 ```
 
 ## Clean Dataset structure
